@@ -29,7 +29,7 @@ DHT dht(DHTPIN, DHTTYPE);     // Initialize DHT sensor.
 ESP8266WebServer server(80);  // Port 80
 
 // Station access to the router
-const char* g_SSID_STA = "<YourAPssid";
+const char* g_SSID_STA = "<YourAPssid>";
 const char* g_PSWD_STA = "<Password>";
 
 // Soft. AP access
